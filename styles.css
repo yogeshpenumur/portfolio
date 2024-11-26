@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000;
+    color: rgb(5, 4, 4);
+    padding: 10px 0;
+    position: fixed; /* Fixed position */
+    width: 100%; /* Full width */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Make sure it stays on top */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+section {
+    padding: 80px 20px; /* Added top padding to accommodate fixed header */
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section#photo {
+    text-align: center;
+}
+
+section#photo img {
+    width: 200px;
+    height: auto;
+    border-radius: 5%;
+}
+
+section h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    margin-bottom: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
